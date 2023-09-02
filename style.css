@@ -1,0 +1,116 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 80px;
+    background-color: black;
+    display : flex ;
+    flex-direction: row; 
+}
+.logo{
+    width: 300px;
+    flex-grow: 8;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.logo img{
+    width: 250px;
+}
+.outils{
+    flex-grow: 4;
+    text-align: right;
+    align-items: center;
+    padding-right: 10px;
+}
+.outils .avatar1{
+    width:50px;
+    text-align: center;
+    height: 50px;
+    padding-top:10px ;
+}
+.outils .menu{
+    width: 40px;
+    align-items: right;
+}
+.content{
+    display: flex;
+}
+.content .widgets{
+    background-color: aqua;
+    flex-grow: 3;
+    
+}
+.content .controls{
+    background-color: rgb(235, 233, 233);
+    flex-grow: 9;
+    padding: 10px;
+}
+.lamps{
+    background-color: white;
+    padding : 15px;
+    border-bottom: 3px solid black ;
+    text-align: center;
+}
+.lamps .lamp1 img{
+    width: 150px;
+}
+.heure{
+    background-color: black;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+}
+.salutation{
+    padding: 10px;
+    background-color: rgba(21, 148, 21, 0.842);
+    height: 200px;
+}
+.heure p{
+    font-size: 25px;
+    color : white;
+    font-weight: 900px;
+    
+}
+.introduction{
+    text-align: center;
+    border-bottom: 2px solid gray;
+    padding: 20px;
+}
+.introduction h2{
+    font-size: 30Px;
+}
+.controllers .ctrl_hours, .ctrl_salutation, .ctrl_variable, .ctrl_condition{
+    display : flex;
+    align-items: center;
+}
+.ctrl_hours img, .ctrl_salutation img{
+    width: 50px;
+}
+.ctrl_hours .togglecontent, .ctrl_salutation .togglecontent{
+    flex-grow: 4;
+}
+.ctrl_hours p, .ctrl_salutation p{
+    flex-grow: 9;
+}
+.ctrl_variable p, .ctrl_condition p{
+    flex-grow: 6;
+}
+.ctrl_variable .form_container, .ctrl_condition .form_container{
+    flex-grow: 4;
+}
+.form_container{
+    flex-grow: 4;
+    text-align: right;
+}
+.togglecontent{
+    text-align: right;
+}
+#salutation{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
